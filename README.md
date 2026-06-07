@@ -4,7 +4,7 @@
 
 ---
 
-[![GitHub Actions Build](https://img.shields.io/github/actions/workflow/status/username/repo/deploy.yml?branch=main&style=for-the-badge)](https://github.com/username/repo/actions)
+[![GitHub Actions Build](https://img.shields.io/github/actions/workflow/status/Md-Hamzah-Omair/Markdown-to-Portfolio-Builder/deploy.yml?branch=main&style=for-the-badge)](https://github.com/Md-Hamzah-Omair/Markdown-to-Portfolio-Builder/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Open Source Welcoming](https://img.shields.io/badge/Open%20Source-Welcoming-blueviolet.svg?style=for-the-badge)](https://github.com/firstcontributions/first-contributions)
 
