@@ -1,1 +1,81 @@
-[]
+{
+  "name": "Md.Hamzah Omair",
+  "avatar_url": "https://avatars.githubusercontent.com/u/280980941?v=4",
+  "aboutMeExpanded": "As a dedicated Bachelor of Business Administration in Computer Applications (BBA-CA) student at Christ College Pune, I bridge the gap between business logic and modern software engineering. Driven by an insatiable curiosity for how scalable systems are built, I have spent my academic journey mastering full-stack development methodologies, focusing on creating seamless, user-centric digital experiences.\n\nMy technical toolkit is anchored in the JavaScript/TypeScript ecosystem, with deep hands-on experience in React, Next.js, and Node.js. I thrive on solving complex architectural challenges, whether that involves designing robust RESTful APIs, managing state efficiently on the frontend, or automating deployment pipelines to ensure continuous integration and delivery.\n\nEager to kickstart my professional journey, I am actively seeking a full-stack software engineering internship where I can contribute to high-impact projects. I bring a strong foundation of self-directed learning, a collaborative mindset, and a relentless drive to write clean, maintainable code that solves real-world problems.",
+  "projects": [
+    {
+      "title": "Markdown-to-Portfolio-Builder",
+      "summary": "This JavaScript-based tool simplifies the portfolio creation process by dynamically generating professional websites directly from Markdown files hosted on GitHub. It showcases frontend engineering complexity by parsing raw markdown data and rendering it into a structured, responsive layout with minimal configuration.",
+      "url": "https://github.com/Md-Hamzah-Omair/Markdown-to-Portfolio-Builder",
+      "tech": [
+        "JavaScript",
+        "Markdown",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "devops-directive-github-actions-course",
+      "summary": "Serving as a comprehensive hands-on companion repository, this project demonstrates mastery over CI/CD workflows and automation using GitHub Actions. It highlights practical experience in configuring build pipelines, managing secrets, and automating testing environments to optimize the software development lifecycle.",
+      "url": "https://github.com/Md-Hamzah-Omair/devops-directive-github-actions-course",
+      "tech": [
+        "GitHub Actions",
+        "CI/CD",
+        "DevOps"
+      ]
+    },
+    {
+      "title": "youtube-backend",
+      "summary": "This project features a robust backend architecture designed to replicate core functionalities of YouTube using JavaScript and Node.js. It demonstrates backend complexity through secure user authentication, video data processing, and efficient database schema design for handling relational media content.",
+      "url": "https://github.com/Md-Hamzah-Omair/youtube-backend",
+      "tech": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "startup-page",
+      "summary": "Developed using HTML and CSS, this custom browser startup page provides a clean, optimized interface designed to load instantly upon opening a new tab. The project emphasizes frontend performance optimization and responsive design principles to deliver a highly personalized user experience.",
+      "url": "https://github.com/Md-Hamzah-Omair/startup-page",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "ano-message",
+      "summary": "Built with TypeScript, this application provides a secure platform for sending and receiving anonymous messages seamlessly. It highlights advanced type safety, secure data handling, and real-time state management to ensure a reliable and private user communication channel.",
+      "url": "https://github.com/Md-Hamzah-Omair/ano-message",
+      "tech": [
+        "TypeScript",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "get-me-a-chai",
+      "summary": "This application is a fully functional Patreon clone developed in JavaScript that enables creators to receive financial support directly from their audience. It integrates secure payment gateway APIs and manages complex transactional states to deliver a seamless, reliable crowdfunding experience.",
+      "url": "https://github.com/Md-Hamzah-Omair/get-me-a-chai",
+      "tech": [
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Payment API"
+      ]
+    },
+    {
+      "title": "passin-password-manager",
+      "summary": "Developed using React and JavaScript, this lightweight password manager offers users a secure interface to store and organize their credentials. It implements client-side encryption concepts and local state management to ensure sensitive user data remains protected and easily accessible.",
+      "url": "https://github.com/Md-Hamzah-Omair/passin-password-manager",
+      "tech": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "Web Crypto API"
+      ]
+    }
+  ]
+}

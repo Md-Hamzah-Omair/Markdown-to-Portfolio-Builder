@@ -12,8 +12,20 @@ The Zero-Config edition uses the Google Gemini API to autonomously expand your G
 ## 🛠️ Setup
 1. Fork this repo.
 2. Edit `src/content/config.json` with your `github_username`.
-3. Add `GEMINI_API_KEY` to your GitHub Secrets.
-4. Enable GitHub Pages via GitHub Actions.
+3. Create a `.env` file in the root and add:
+   \`\`\`env
+   GEMINI_API_KEY=your_key_here
+   \`\`\`
+4. Run project synchronization:
+   \`\`\`bash
+   npm run sync
+   \`\`\`
+5. Start development:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+6. Add `GEMINI_API_KEY` to your GitHub Secrets for automated updates.
+
 
 ## 🤝 Community
 - **Bug Reports**: Use the provided issue templates.

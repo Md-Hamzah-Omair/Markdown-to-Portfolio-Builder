@@ -2,11 +2,16 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Code, Terminal, User } from 'lucide-react';
+import { ExternalLink, Code, Terminal, User } from 'lucide-react';
 import projectsData from '@/content/projects-data.json';
 
 export default function ZeroConfigPage() {
-  const { name, avatar_url, aboutMeExpanded, projects } = projectsData;
+  const { 
+    name = 'Developer', 
+    avatar_url = '', 
+    aboutMeExpanded = '', 
+    projects = [] 
+  } = projectsData || {};
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-indigo-500/30">
@@ -20,11 +25,17 @@ export default function ZeroConfigPage() {
             className="mb-8 relative"
           >
             <div className="absolute inset-0 bg-indigo-500 blur-2xl opacity-20 animate-pulse" />
-            <img 
-              src={avatar_url} 
-              alt={name} 
-              className="w-32 h-32 rounded-full border-2 border-white/10 relative z-10"
-            />
+            {avatar_url ? (
+              <img 
+                src={avatar_url} 
+                alt={name} 
+                className="w-32 h-32 rounded-full border-2 border-white/10 relative z-10"
+              />
+            ) : (
+              <div className="w-32 h-32 rounded-full border-2 border-white/10 relative z-10 bg-slate-800 flex items-center justify-center text-slate-500">
+                <User size={48} />
+              </div>
+            )}
           </motion.div>
           <motion.h1 
             initial={{ y: 20, opacity: 0 }}
@@ -54,7 +65,7 @@ export default function ZeroConfigPage() {
           <h2 className="text-2xl font-bold text-white">Engineering Narrative</h2>
         </div>
         <div className="prose prose-invert max-w-none prose-p:text-slate-400 prose-p:leading-relaxed prose-p:mb-6">
-          {aboutMeExpanded.split('\n\n').map((para, i) => (
+          {(aboutMeExpanded || "Building the future of web development.").split('\n\n').map((para, i) => (
             <p key={i}>{para}</p>
           ))}
         </div>
@@ -83,7 +94,7 @@ export default function ZeroConfigPage() {
                   {project.title}
                 </h3>
                 <a href={project.url} className="text-slate-500 hover:text-white transition-colors">
-                  <Github size={18} />
+                  <Code size={18} />
                 </a>
               </div>
               <p className="text-sm text-slate-400 mb-6 leading-relaxed">

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sync": "node scripts/sync-github.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
