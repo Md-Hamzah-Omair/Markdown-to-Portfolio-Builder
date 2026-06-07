@@ -1,81 +1,190 @@
 {
-  "name": "Md.Hamzah Omair",
-  "avatar_url": "https://avatars.githubusercontent.com/u/280980941?v=4",
-  "aboutMeExpanded": "As a dedicated Bachelor of Business Administration in Computer Applications (BBA-CA) student at Christ College Pune, I bridge the gap between business logic and modern software engineering. Driven by an insatiable curiosity for how scalable systems are built, I have spent my academic journey mastering full-stack development methodologies, focusing on creating seamless, user-centric digital experiences.\n\nMy technical toolkit is anchored in the JavaScript/TypeScript ecosystem, with deep hands-on experience in React, Next.js, and Node.js. I thrive on solving complex architectural challenges, whether that involves designing robust RESTful APIs, managing state efficiently on the frontend, or automating deployment pipelines to ensure continuous integration and delivery.\n\nEager to kickstart my professional journey, I am actively seeking a full-stack software engineering internship where I can contribute to high-impact projects. I bring a strong foundation of self-directed learning, a collaborative mindset, and a relentless drive to write clean, maintainable code that solves real-world problems.",
-  "projects": [
+  "name": "Linus Torvalds",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1024025?v=4",
+  "title": "Fellow at Linux Foundation",
+  "aboutMeExpanded": "As a visionary systems architect and open-source pioneer, my career has been defined by creating foundational technologies that power the modern digital world. Serving as a Fellow at the Linux Foundation, I have dedicated decades to stewarding the global open-source ecosystem and guiding the collaborative development of software that runs on billions of devices, from tiny embedded sensors to the world's largest supercomputers. My work focuses on establishing robust, scalable, and highly performant standards that empower developers worldwide to build without boundaries.\n\nMy technical expertise lies at the intersection of low-level systems programming, operating system kernel architecture, and distributed version control systems. I possess a deep-seated passion for writing clean, highly optimized C code and designing architectures that prioritize efficiency, security, and hardware compatibility. Throughout my journey, I have championed pragmatic engineering philosophies, demonstrating that elegant code must also be robust enough to withstand the demands of massive, real-world production environments.\n\nBeyond core kernel development, I am continuously driven by curiosity to explore hardware-software interfaces, embedded systems, and innovative developer tooling. I thrive on solving complex, low-level engineering challenges, whether that involves optimizing memory latency, interfacing with custom microcontrollers, or designing intuitive command-line utilities. I remain committed to mentoring the next generation of engineers and fostering open, collaborative communities that push the boundaries of what technology can achieve.",
+  "featuredProjects": [
     {
-      "title": "Markdown-to-Portfolio-Builder",
-      "summary": "This JavaScript-based tool simplifies the portfolio creation process by dynamically generating professional websites directly from Markdown files hosted on GitHub. It showcases frontend engineering complexity by parsing raw markdown data and rendering it into a structured, responsive layout with minimal configuration.",
-      "url": "https://github.com/Md-Hamzah-Omair/Markdown-to-Portfolio-Builder",
+      "title": "linux",
+      "summary": "Developed in C, this industry-defining repository contains the complete source tree for the Linux kernel, serving as the foundational operating system core for modern cloud infrastructure, supercomputers, and mobile devices. Managing this codebase involves coordinating massive distributed contributions while maintaining extreme performance, hardware compatibility, and low-level system security.",
+      "url": "https://github.com/torvalds/linux",
       "tech": [
-        "JavaScript",
-        "Markdown",
-        "HTML",
-        "CSS"
+        "C",
+        "Assembly",
+        "Makefile",
+        "Shell"
       ]
     },
     {
-      "title": "devops-directive-github-actions-course",
-      "summary": "Serving as a comprehensive hands-on companion repository, this project demonstrates mastery over CI/CD workflows and automation using GitHub Actions. It highlights practical experience in configuring build pipelines, managing secrets, and automating testing environments to optimize the software development lifecycle.",
-      "url": "https://github.com/Md-Hamzah-Omair/devops-directive-github-actions-course",
+      "title": "AudioNoise",
+      "summary": "This project leverages C to implement a suite of random digital audio effects, showcasing real-time signal processing capabilities. The complexity lies in optimizing low-latency mathematical algorithms to generate and manipulate audio streams efficiently at the system level.",
+      "url": "https://github.com/torvalds/AudioNoise",
       "tech": [
-        "GitHub Actions",
-        "CI/CD",
-        "DevOps"
+        "C",
+        "Digital Signal Processing",
+        "Audio Engineering"
       ]
     },
     {
-      "title": "youtube-backend",
-      "summary": "This project features a robust backend architecture designed to replicate core functionalities of YouTube using JavaScript and Node.js. It demonstrates backend complexity through secure user authentication, video data processing, and efficient database schema design for handling relational media content.",
-      "url": "https://github.com/Md-Hamzah-Omair/youtube-backend",
+      "title": "uemacs",
+      "summary": "Written in C, this repository features a customized, highly optimized version of the MicroEMACS text editor tailored with private modifications for streamlined developer workflows. It demonstrates deep system-level customization, focusing on lightweight memory footprints and rapid keyboard-driven text manipulation.",
+      "url": "https://github.com/torvalds/uemacs",
       "tech": [
-        "JavaScript",
-        "Node.js",
-        "Express",
-        "MongoDB"
-      ]
-    },
-    {
-      "title": "startup-page",
-      "summary": "Developed using HTML and CSS, this custom browser startup page provides a clean, optimized interface designed to load instantly upon opening a new tab. The project emphasizes frontend performance optimization and responsive design principles to deliver a highly personalized user experience.",
-      "url": "https://github.com/Md-Hamzah-Omair/startup-page",
-      "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "title": "ano-message",
-      "summary": "Built with TypeScript, this application provides a secure platform for sending and receiving anonymous messages seamlessly. It highlights advanced type safety, secure data handling, and real-time state management to ensure a reliable and private user communication channel.",
-      "url": "https://github.com/Md-Hamzah-Omair/ano-message",
-      "tech": [
-        "TypeScript",
-        "React",
-        "Node.js"
-      ]
-    },
-    {
-      "title": "get-me-a-chai",
-      "summary": "This application is a fully functional Patreon clone developed in JavaScript that enables creators to receive financial support directly from their audience. It integrates secure payment gateway APIs and manages complex transactional states to deliver a seamless, reliable crowdfunding experience.",
-      "url": "https://github.com/Md-Hamzah-Omair/get-me-a-chai",
-      "tech": [
-        "JavaScript",
-        "React",
-        "Next.js",
-        "Payment API"
-      ]
-    },
-    {
-      "title": "passin-password-manager",
-      "summary": "Developed using React and JavaScript, this lightweight password manager offers users a secure interface to store and organize their credentials. It implements client-side encryption concepts and local state management to ensure sensitive user data remains protected and easily accessible.",
-      "url": "https://github.com/Md-Hamzah-Omair/passin-password-manager",
-      "tech": [
-        "React",
-        "JavaScript",
-        "CSS",
-        "Web Crypto API"
+        "C",
+        "Text Processing",
+        "Systems Programming"
       ]
     }
-  ]
+  ],
+  "standardProjects": [
+    {
+      "title": "ScrollWheel",
+      "summary": "Built using C, this embedded systems project implements a minimalist scroll wheel interface utilizing a magnetic sensor on the RP2350 microcontroller. It showcases low-level hardware integration, precise sensor calibration, and real-time input processing on resource-constrained microcontrollers.",
+      "url": "https://github.com/torvalds/ScrollWheel",
+      "tech": [
+        "C",
+        "RP2350",
+        "Embedded Systems",
+        "Hardware Integration"
+      ]
+    },
+    {
+      "title": "pesconvert",
+      "summary": "This utility, written in C, is designed to parse and convert proprietary Brother PES embroidery file formats into standard vector representations. The project requires reverse-engineering binary file structures and implementing precise coordinate mapping algorithms to ensure accurate design translation.",
+      "url": "https://github.com/torvalds/pesconvert",
+      "tech": [
+        "C",
+        "Binary Parsing",
+        "File Format Conversion"
+      ]
+    },
+    {
+      "title": "libgit2",
+      "summary": "This highly complex, cross-platform library written in C provides a linkable implementation of Git core methods for integration into external applications. It demands rigorous memory management, thread safety, and deep compatibility with diverse operating system file systems to ensure reliable version control operations.",
+      "url": "https://github.com/torvalds/libgit2",
+      "tech": [
+        "C",
+        "Git API",
+        "Systems Integration",
+        "Cross-Platform"
+      ]
+    },
+    {
+      "title": "test-tlb",
+      "summary": "Developed in C, this diagnostic tool measures memory latency and tests Translation Lookaside Buffer (TLB) performance to analyze hardware bottlenecks. The complexity involves writing precise, low-level assembly-adjacent code to bypass caching layers and accurately benchmark CPU memory management units.",
+      "url": "https://github.com/torvalds/test-tlb",
+      "tech": [
+        "C",
+        "Assembly",
+        "Hardware Benchmarking",
+        "Memory Management"
+      ]
+    },
+    {
+      "title": "GuitarPedal",
+      "summary": "This project documents the exploration of analog circuitry and digital signal processing, utilizing C to program embedded audio effects for custom guitar hardware. It bridges the gap between physical electrical engineering and low-level firmware development to achieve real-time analog-to-digital audio manipulation.",
+      "url": "https://github.com/torvalds/GuitarPedal",
+      "tech": [
+        "C",
+        "Analog Circuits",
+        "DSP",
+        "Embedded Firmware"
+      ]
+    },
+    {
+      "title": "HunspellColorize",
+      "summary": "Written in C, this utility acts as a terminal wrapper around the 'less' pager to dynamically colorize spelling mistakes using the Hunspell library. It involves parsing terminal escape sequences and managing real-time text stream processing to deliver an interactive, visual command-line tool.",
+      "url": "https://github.com/torvalds/HunspellColorize",
+      "tech": [
+        "C",
+        "Hunspell",
+        "Terminal I/O",
+        "Text Processing"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Linux Foundation",
+      "role": "Fellow",
+      "duration": "July 2003 - Present (23 years)",
+      "description": ""
+    },
+    {
+      "company": "Open Source Development Labs (OSDL)",
+      "role": "Fellow",
+      "duration": "July 2003 - December 2006 (3 years 6 months)",
+      "description": "Previous name for the Linux Foundation, before the merger with LSB"
+    },
+    {
+      "company": "Transmeta Corp",
+      "role": "Fellow",
+      "duration": "March 1997 - June 2003 (6 years 4 months)",
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Helsinki",
+      "degree": "MSc, Computer Science",
+      "duration": "1989 - 1996",
+      "details": ""
+    },
+    {
+      "institution": "Helsingin yliopisto",
+      "degree": "Honorary Doctorate, Computer Science",
+      "duration": "1988 - 1996",
+      "details": ""
+    },
+    {
+      "institution": "Stockholm University",
+      "degree": "Honorary Doctorate, Mathematics and Science",
+      "duration": "1999",
+      "details": ""
+    }
+  ],
+  "customSections": [
+    {
+      "sectionTitle": "Summary",
+      "content": "Main Linux kernel developer since 1991, still active maintainer. Original architect and author of the 'Git' source control management system, still active in development but no longer the primary maintainer. Specialties: System programming - Linux and git"
+    },
+    {
+      "sectionTitle": "Top Skills",
+      "content": [
+        "Linux",
+        "git",
+        "Scuba Diving"
+      ]
+    },
+    {
+      "sectionTitle": "Languages",
+      "content": [
+        "English (Native or Bilingual)",
+        "Finnish (Native or Bilingual)",
+        "Swedish (Native or Bilingual)"
+      ]
+    },
+    {
+      "sectionTitle": "Other Links",
+      "content": [
+        "kernel.org",
+        "git.or.cz"
+      ]
+    }
+  ],
+  "socials": {
+    "twitter": "",
+    "email": "",
+    "instagram": "",
+    "linkedin": "www.linkedin.com/in/linustorvalds"
+  },
+  "aiTheme": {
+    "bgClass": "bg-stone-950",
+    "textClass": "text-stone-200",
+    "accentClass": "text-amber-500 border-amber-700/50 bg-amber-950/20",
+    "cardClass": "bg-stone-900 border border-stone-800 shadow-[0_0_15px_rgba(245,158,11,0.05)]",
+    "navClass": "bg-stone-950/80 backdrop-blur-md border-b border-stone-800",
+    "fontFamily": "font-mono",
+    "borderRadius": "rounded-none"
+  }
 }

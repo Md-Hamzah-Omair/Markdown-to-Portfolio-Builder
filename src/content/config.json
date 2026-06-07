@@ -1,8 +1,29 @@
 {
-  "name": "Md Hamzah Omair",
-  "title": "Full stack Developer",
-  "linkedin_url": "https://www.linkedin.com/in/md-hamzah-omair-b20493306/",
-  "github_username": "Md-Hamzah-Omair",
+  "name": "Linus Torvald",
+  "title": "Open Source Wizard",
+  "linkedin_url": "https://www.linkedin.com/in/linustorvalds/",
+  "github_username": "torvalds",
   "theme": "dynamic-ai",
-  "ai_theme_prompt": "A futuristic cyberpunk theme with neon violet accents, dark obsidian background, sharp geometric edges, and high contrast typography."
+  "ai_theme_prompt": "A linux inspired old school theme with rustic accents and analog computing inspired colors",
+  "experience": [
+    {
+      "company": "Company Name",
+      "role": "Position Title",
+      "duration": "2023 - Present",
+      "description": "Brief description of your key achievements and responsibilities."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University/College Name",
+      "degree": "BCA in Computer Science",
+      "duration": "2022 - 2025",
+      "details": "Major in Software Engineering, GPA: 4.0"
+    }
+  ],
+  "socials": {
+    "twitter": "",
+    "email": "your-email@example.com",
+    "instagram": ""
+  }
 }

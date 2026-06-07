@@ -1,9 +1,9 @@
 {
-  "bgClass": "bg-slate-900",
-  "textClass": "text-slate-100",
-  "accentClass": "text-indigo-400 border-indigo-500",
-  "cardClass": "bg-slate-800/50 border-slate-700 rounded-xl",
-  "navClass": "bg-slate-900/80 backdrop-blur-md border-slate-800",
-  "fontFamily": "font-sans",
-  "borderRadius": "rounded-xl"
+  "bgClass": "bg-red-950",
+  "textClass": "text-red-50",
+  "accentClass": "text-green-400 border-green-400",
+  "cardClass": "bg-black/40 border border-red-900",
+  "navClass": "bg-red-950/80 backdrop-blur-md border-b border-red-900/50",
+  "fontFamily": "font-mono",
+  "borderRadius": "rounded-none"
 }
